@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="fonts" href="./node_modules/swiper/swiper.min.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Swiper</title>
 </head>
 <body>
-    
+    <header class="wrapper">
+        <h1 class="title">Ремонт техники различных брендов</h1>
+    </header>
+
+    <main class="wrapper brands swiper">
+        <ul class="brandList swiper-wrapper">
+            <li class="brandList__item swiper-slide">
+                <a href="#" class="brandList__link ">
+                    <img src="./src/brands/acer.png" alt="acer" class="brandList__img"> 
+                    <img src="./src/go.svg" alt="go">
+                </a>
+            </li>
+            <li class="brandList__item swiper-slide">
+                <a href="#" class="brandList__link">
+                    <img src="./src/brands/bosch.png" alt="bosch" class="brandList__img swiper-slide"> <img src="./src/go.svg" alt="go">
+                </a>
+            </li>
+            <li class="brandList__item swiper-slide">
+                <a href="#" class="brandList__link">
+                    <img src="./src/brands/hp.png" alt="hp" class="brandList__img swiper-slide"> <img src="./src/go.svg" alt="go">
+                </a>
+            </li>
+            <li class="brandList__item swiper-slide">
+                <a href="#" class="brandList__link">
+                    <img src="./src/brands/samsung.png" alt="samsung" class="brandList__img swiper-slide"> <img src="./src/go.svg" alt="go">
+                </a>
+            </li>
+            <li class="brandList__item swiper-slide">
+                <a href="#" class="brandList__link">
+                    <img src="./src/brands/acer.png" alt="acer" class="brandList__img swiper-slide"> <img src="./src/go.svg" alt="go">
+                </a>
+            </li>
+            <li class="brandList__item swiper-slide">
+                <a href="#" class="brandList__link">
+                    <img src="./src/brands/hp.png" alt="hp" class="brandList__img swiper-slide"> <img src="./src/go.svg" alt="go">
+                </a>
+            </li>
+            <li class="brandList__item swiper-slide">
+                <a href="#" class="brandList__link">
+                    <img src="./src/brands/apple.png" alt="apple" class="brandList__img swiper-slide"> <img src="./src/go.svg" alt="go">
+                </a>
+            </li>
+            <li class="brandList__item swiper-slide">
+                <a href="#" class="brandList__link">
+                    <img src="./src/brands/sony.png" alt="sony" class="brandList__img swiper-slide"> <img src="./src/go.svg" alt="go">
+                </a>
+            </li>
+            <li class="brandList__item swiper-slide">
+                <a href="#" class="brandList__link">
+                    <img src="./src/brands/viewsonic.png" alt="viewsonic" class="brandList__img swiper-slide"> <img src="./src/go.svg" alt="go">
+                </a>
+            </li>
+            <li class="brandList__item swiper-slide">
+                <a href="#" class="brandList__link">
+                    <img src="./src/brands/samsung.png" alt="samsung" class="brandList__img swiper-slide"> <img src="./src/go.svg" alt="go">
+                </a>
+            </li>
+            <li class="brandList__item swiper-slide">
+                <a href="#" class="brandList__link">
+                    <img src="./src/brands/apple.png" alt="apple" class="brandList__img swiper-slide"> <img src="./src/go.svg" alt="go">
+                </a>
+            </li>
+            <div class="swiper-pagination"></div>
+        </ul>
+
+        <span class="read-more"><img src="./src//readmore.svg" class="details__arrows" alt="show & hide element">Показать всё</span>
+
+    </main>
+    <div class="swiper-pagination"></div>
+    <script src="/node_modules/swiper/swiper.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
