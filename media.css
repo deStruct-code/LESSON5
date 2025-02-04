@@ -1,27 +1,29 @@
 @media (min-width: 768px){
+
     .wrapper{
         height: 56px;
     }
 
     .brands{
-        padding-right: 24px !important;
-        flex-direction: row;
         width: 72px;
+        margin-left: 24px;
+    }
+
+    .title{
+        margin-left: 24px;
     }
 
     .brandList{
-        display: flex;
+        display: flex; 
+        flex-wrap: wrap;
         justify-content: flex-start;
-        flex-wrap: wrap !important;
-        /* margin-left: 24px; */
-        margin-right: 24px;
         column-gap: 24px;
-        /* overflow-y: visible;
-        overflow-x: visible; */
+    }
+    .brandList+.swiper-wrapper{
+        width: 100%;
     }
 
     .read-more, .hide-more{
-        margin-left: 24px;
         cursor: pointer;
     }
 
@@ -58,10 +60,11 @@
         margin-left: 32px;
     }
     
+    .brands{
+        margin-left: 32px;
+    }
     .brandList{
         flex-wrap: wrap;
-        margin-left: 32px;
-        margin-right: 32px;
     }
 
     .read-more{
