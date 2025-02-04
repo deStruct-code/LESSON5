@@ -62,9 +62,13 @@
     }
 
     .read-more{
-        display: block;
         margin-left: 32px;
     }
+    
+    .hide-more{
+        margin-left: 32px;
+    }
+
     .swiper-pagination{
         display: none;
     }
