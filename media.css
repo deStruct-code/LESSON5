@@ -23,6 +23,7 @@
 
     .read-more, .hide-more{
         margin-left: 24px;
+        cursor: pointer;
     }
 
     .read-more{
