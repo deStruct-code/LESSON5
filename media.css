@@ -6,12 +6,11 @@
     .brands{
         padding-right: 24px !important;
         flex-direction: row;
+        width: 72px;
     }
 
-
-
     .brandList{
-        display: flex !important;
+        display: flex;
         justify-content: flex-start;
         flex-wrap: wrap !important;
         /* margin-left: 24px; */
@@ -26,8 +25,12 @@
         cursor: pointer;
     }
 
-    .read-more{
+    .read-more, .hide-more{
         display: inline-block;
+    }
+
+    .hidden{
+        display: none;
     }
 
     .swiper-pagination{
@@ -64,7 +67,7 @@
     .read-more{
         margin-left: 32px;
     }
-    
+
     .hide-more{
         margin-left: 32px;
     }
@@ -74,27 +77,25 @@
     }
 }
 
-
-
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .read-more{
         display: none;
     }
+
     .hide-more{
         display: none;
     }
+
     .brandList{
-        height: 114px;
         overflow-y: visible;
         overflow-x: visible;
     }
     .brands{
         position: relative;
+        padding-bottom: 50px;
     }
-    .swiper-pagination{
-        position: absolute !important;
-        top: -100px;
-    }
-    
 
+
+        /* top: -20px; */
 }
+
